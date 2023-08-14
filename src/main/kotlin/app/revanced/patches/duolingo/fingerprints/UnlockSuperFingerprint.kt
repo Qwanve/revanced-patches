@@ -6,13 +6,7 @@ import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
 object UnlockSuperFingerprint : MethodFingerprint(
-    parameters = listOf("L", "L", "L", "L", "L", "L", "Z", "L", "L", "J", "L", "L", "L", "Z", "Z", "Z", "Z", "Z", "Z",
-        "Z", "Z", "L", "L", "L", "L", "L", "L", "Z", "Z", "Z", "Z", "L", "L", "L", "J", "I", "L", "L", "L", "L", "L",
-        "L", "L", "L", "L", "L", "L", "L", "Z", "Z", "Z", "Z", "Z", "Z", "Z", "Z", "Z", "Z", "Z", "Z", "L", "Z", "L",
-        "L", "L", "Z", "Z", "Z", "L", "L", "L", "J", "L", "L", "L", "L", "Z", "L", "Z", "Z", "L"),
-
     accessFlags = AccessFlags.CONSTRUCTOR or AccessFlags.PUBLIC,
-
     opcodes = listOf(
         Opcode.IPUT_OBJECT,
         Opcode.IPUT_OBJECT,
